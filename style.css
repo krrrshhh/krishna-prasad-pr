@@ -1,409 +1,104 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-
-}
-
-
-body {
-    background-image: linear-gradient(260deg,
-            hsl(12deg 60% 52%) 0%,
-            hsl(4deg 57% 53%) 8%,
-            hsl(355deg 54% 52%) 17%,
-            hsl(348deg 54% 49%) 25%,
-            hsl(341deg 56% 46%) 33%,
-            hsl(334deg 57% 43%) 42%,
-            hsl(327deg 55% 41%) 50%,
-            hsl(318deg 52% 38%) 58%,
-            hsl(307deg 46% 35%) 67%,
-            hsl(291deg 43% 34%) 75%,
-            hsl(274deg 42% 35%) 83%,
-            hsl(256deg 41% 35%) 92%,
-            hsl(235deg 45% 34%) 100%);
-
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: black;
-    width: 100%;
-    padding: 30px;
-    border-radius: 20PX 20px 0px 0px;
-}
-
-header a {
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-header a:hover {
-    color: rgb(208, 255, 0);
-
-}
-
-nav a {
-    margin: 50px;
-    font-weight: 600;
-}
-
-nav a:hover {
-    color: aqua;
-}
-
-.a {
-    display: flex;
-    width: 100%;
-    border-radius: 50px;
-    justify-content: space-around;
-    align-items: center;
-    background-image: linear-gradient(260deg,
-            hsl(12deg 60% 52%) 0%,
-            hsl(4deg 57% 53%) 8%,
-            hsl(355deg 54% 52%) 17%,
-            hsl(348deg 54% 49%) 25%,
-            hsl(341deg 56% 46%) 33%,
-            hsl(334deg 57% 43%) 42%,
-            hsl(327deg 55% 41%) 50%,
-            hsl(318deg 52% 38%) 58%,
-            hsl(307deg 46% 35%) 67%,
-            hsl(291deg 43% 34%) 75%,
-            hsl(274deg 42% 35%) 83%,
-            hsl(256, 49%, 41%) 92%,
-            hsl(235, 62%, 42%) 100%);
-}
-
-.left {
-    width: 450px;
-
-}
-
-.left img {
-    width: 550px;
-    margin-left: 200px;
-    height: 600px;
-    border-radius: 90%;
-    margin-top: 100px;
-    margin-bottom: 80px;
-    cursor: no-drop;
-    border: 3px solid rgb(255, 255, 255);
-
-
-
-
-
-
-}
-
-.right {
-    width: 650;
-
-}
-
-.right h1 {
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 17px;
-    color: white;
-}
-
-.right p {
-    margin-right: 110px;
-    margin-top: 40px;
-    padding-left: 30px;
-    width: 640px;
-    font-size: 150%;
-    font-weight: 500px;
-    color: azure;
-
-}
-
-button {
-    background-image: linear-gradient(260deg,
-            hsl(12deg 60% 52%) 0%,
-            hsl(4deg 57% 53%) 8%,
-            hsl(355deg 54% 52%) 17%,
-            hsl(348deg 54% 49%) 25%,
-            hsl(341deg 56% 46%) 33%,
-            hsl(334deg 57% 43%) 42%,
-            hsl(327deg 55% 41%) 50%,
-            hsl(318deg 52% 38%) 58%,
-            hsl(307deg 46% 35%) 67%,
-            hsl(291deg 43% 34%) 75%,
-            hsl(274deg 42% 35%) 83%,
-            hsl(256deg 41% 35%) 92%,
-            hsl(235deg 45% 34%) 100%);
-    color: white;
-    padding: 10px;
-    margin-left: 70px;
-    width: 200px;
-    padding: 20px;
-    margin-top: 30px;
-    size: 500px;
-    border-radius: 20px;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: 400;
-
-
-}
-
-.anshif {
-    background-image: linear-gradient(260deg,
-            hsl(12deg 60% 52%) 0%,
-            hsl(4deg 57% 53%) 8%,
-            hsl(355deg 54% 52%) 17%,
-            hsl(348deg 54% 49%) 25%,
-            hsl(341deg 56% 46%) 33%,
-            hsl(334deg 57% 43%) 42%,
-            hsl(327deg 55% 41%) 50%,
-            hsl(318deg 52% 38%) 58%,
-            hsl(307deg 46% 35%) 67%,
-            hsl(291deg 43% 34%) 75%,
-            hsl(274deg 42% 35%) 83%,
-            hsl(256, 49%, 41%) 92%,
-            hsl(235, 62%, 42%) 100%);
-    align-items: center;
-    padding: 30px;
-    border-radius: 50px;
-    margin: auto;
-    width: 80%;
-    margin-top: 30px;
-    margin-top: 40px;
-    border-radius: 3px solid black;
-}
-
-
-
-.skills {
-    background-color: aqua;
-    width: auto;
-    height: 300px;
-
-}
-
-.anshif h2 {
-    font-size: 35px;
-    text-align: center;
-    color: white;
-}
-
-.anshif p {
-    padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-}
-
-.skills-row {
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    justify-content: space-around;
-    background-image: linear-gradient(260deg,
-            hsl(12deg 60% 52%) 0%,
-            hsl(4deg 57% 53%) 8%,
-            hsl(355deg 54% 52%) 17%,
-            hsl(348deg 54% 49%) 25%,
-            hsl(341deg 56% 46%) 33%,
-            hsl(334deg 57% 43%) 42%,
-            hsl(327deg 55% 41%) 50%,
-            hsl(318deg 52% 38%) 58%,
-            hsl(307deg 46% 35%) 67%,
-            hsl(291deg 43% 34%) 75%,
-            hsl(274deg 42% 35%) 83%,
-            hsl(256, 49%, 41%) 92%,
-            hsl(235, 62%, 42%) 100%);
-    border-radius: 50px;
-    margin-top: 40px;
-    width: 60%;
-    margin-left: 20%;
-}
-
-.skills-html img {
-    width: 190px;
-    padding: 20px;
-    margin-bottom: 0px;
-
-
-}
-
-.skills-css img {
-    width: 150px;
-    padding: 20px;
-
-
-}
-
-.skills-java img {
-    padding: 20px;
-    width: 150px;
-    margin-left: 60px;
-    margin-top: 40px;
-
-
-}
-
-.skills-react img {
-
-    /* padding:10px; */
-    width: 170px;
-    margin-left: 20px;
-    margin-top: 40px;
-
-
-}
-
-.skills-html h3 {
-    font-size: 23px;
-    text-align: center;
-    color: white;
-    font-family: serif;
-    cursor: pointer;
-}
-
-.skills-css h3 {
-    font-size: 23px;
-    text-align: center;
-    color: white;
-    font-family: serif;
-    cursor: pointer;
-}
-
-
-.skills-java h3 {
-    font-size: 23px;
-    text-align: center;
-    color: white;
-    font-family: serif;
-    align-items: center;
-    cursor: pointer;
-
-}
-
-.skills-react h3 {
-    font-size: 23px;
-    text-align: center;
-    color: white;
-    font-family: serif;
-    align-items: center;
-    cursor: pointer;
-    /* margin-top: 30px; */
-}
-
-footer {
-    margin-top: 30px;
-    background-color: black;
-    justify-content: space-around;
-    display: flex;
-
-}
-
-.left-container {
-    width: 500px;
-    height: 150px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    padding-left: 30px;
-    border-radius: 30px;
-    margin-left: 50px;
-    margin-top:30px ;
-
-
-}
-
-.left-container img {
-    margin-left: 10px;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-    border: 1px solid rgb(255, 255, 255);
-    margin-bottom: 20px;
-
-}
-
-.left-container h6 {
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    margin-left: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.social-icons nav{
-    display: flex;
-    font-size: 25px;
-    color: #ffffff;
-    text-decoration: none;
-    align-items: center;
-    margin-top: 50px;
-    margin-right: 0px;
-    gap: 10px;
-}
-
-.social-icons i:hover {
-    color: #eeff00;
-
-}
-.left-container h6:hover{
-    color: #eeff00;
-
-}
-
-.middle-container {
-    background-color: #000000;
-    width: 500px;
-    margin-right: 600px;
-    padding: 10px;
-
-
-
-}
-
-.middle-container a {
-    text-decoration: none;
-    font-size: 15px;
-    display: flex;
-    color: rgb(255, 255, 255);
-    padding: 3px;
-    margin-left: 250px;
-    margin-top: 10px;
-
-
-
-
-}
-
-.middle-container h4 {
-
-    color: white;
-    margin-left: 253px;
-}
-.middle-container h4:hover{
-color: #eeff00;
-}
-.middle-container a:hover{
-color: #eeff00;
-}
-
-
-
-.right-container{
-
-color: #ffffff;
-background-color: rgb(0, 0, 0);
-width: 400px;
-}
-.mi{
-font-size: 20px;
-margin-top: 30px;
-}
-
-.mi :hover{
-color: #eeff00;
+/* Mobile Responsive - screens up to 768px */
+@media screen and (max-width: 768px) {
+    
+    /* Header stacked vertically */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+    header a {
+        margin: 5px 0;
+        font-size: 1em;
+    }
+
+    /* Main Section stacked */
+    .a {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .left, .right {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .left img {
+        width: 80%;
+        max-width: 300px;
+        margin: 20px 0;
+        border-radius: 50%;
+    }
+
+    .right h1 {
+        font-size: 1.8em;
+        padding: 10px 0;
+    }
+
+    .right p {
+        font-size: 1em;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+    /* Buttons full width */
+    button {
+        width: 90%;
+        max-width: 250px;
+        padding: 15px;
+        margin: 15px 0;
+        font-size: 1em;
+    }
+
+    /* Skills section stacked */
+    .skills-row {
+        flex-direction: column;
+        width: 95%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .skills-row div {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+
+    .skills-row img {
+        max-width: 80px;
+        margin-bottom: 5px;
+    }
+
+    .skills-row h3 {
+        font-size: 1em;
+    }
+
+    /* Footer stacked */
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .left-container, .middle-container, .right-container {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .left-container img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .left-container h6, .middle-container h4, .right-container .mi {
+        font-size: 0.9em;
+    }
+
+    .middle-container a {
+        margin-left: 0;
+        display: block;
+    }
 }
